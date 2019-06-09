@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+img {
+	vertical-align: top;
+}
+
+body > div {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.view-inner {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.show {
+	display: flex;
+}
+
+.hide {
+	display: none;
+}
+
+#beer-main .beer-main-inner {
+	position: relative;
+	width: 458px;
+	height: 755px;
+}
+
+#beer-mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+}
+
+#beer-mask img {
+	position: absolute;
+	bottom: 0;
+}
+
+#loading {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#heart-rate-text {
+	position: absolute;
+	top: 0;
+	color: #000;
+	font-size: 8em;
+}

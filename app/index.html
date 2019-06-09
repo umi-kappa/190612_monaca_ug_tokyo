@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+
+	<title>Web Bluetooth API & HeartRate Sensor DEMO</title>
+
+	<link rel="stylesheet" href="css/flat-ui.min.css" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/index.css" />
+
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+
+<div id="ble-connect-button" class="show">
+	<div class="view-inner">
+		<div class="btn btn-block btn-lg btn-primary">CONNECT</div>
+	</div>
+</div>
+
+<div id="beer-main" class="hide">
+	<div id="beer-main-inner">
+		<img src="images/glass.png" alt="">
+		<div id="beer-mask">
+			<img src="images/beer.png" alt="">
+		</div>
+	</div>
+</div>
+
+<div id="loading" class="hide">
+	<img src="images/loading.svg" width="50" height="50">
+</div>
+
+<div id="heart-rate-text" class="hide"></div>
+
+</body>
+</html>
